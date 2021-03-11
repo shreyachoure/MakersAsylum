@@ -1,0 +1,257 @@
+/*Navbar*/
+span.navbar-text {
+  font-family: 'Raleway';
+  font-size: 24px;
+  font-weight: 600;
+
+}
+
+/*Desktop intro*/
+h1.desktop-intro {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 42px;
+  color: #333333;
+  margin-bottom: 2rem;
+
+}
+h3.desktop-intro {
+    font-family: 'Poppins';
+    font-size: 35px;
+    margin-top: 100px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+span.hash {
+  color: #ffcc00;
+}
+p.desktop-intro {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 2rem;
+}
+button.desktop-intro {
+  width: 150px;
+  height: 65px;
+  margin-bottom: 100px;
+
+}
+/* Mobile Intro*/
+h3.mobile-intro {
+  text-align: center; 
+  font-family: 'Poppins''SemiBold'; 
+  font-size: 18px; 
+  margin-top: 2rem;
+}
+span.mobile-intro {
+  color: #ffcc00;
+}
+h1.mobile-intro {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 600;
+
+}
+p.mobile-intro {
+  text-align: center;
+  color: #333333;
+  font-family: 'Raleway';
+  font-weight: 600;
+
+}
+button.mobile-intro {
+  margin-left: 7rem;
+
+}
+
+/*Desktop Lead */
+h6.desktop-lead {
+  margin-top: 100px;
+  text-align: left;
+  font-size: 35px;
+  font-family: 'Poppins';
+  font-weight: 600;
+
+
+}
+p.desktop-lead {
+  color: #333333;
+  font-family: 'Raleway';
+  font-size: 18px;
+}
+/*skills*/
+h3.skills{
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+span.skills {
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/*Mobile Lead*/
+span.mobile-lead {
+  font-size: 20px;
+  font-family: 'Poppins';
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+p.mobile-lead {
+  color: #333333;
+  font-family: 'Raleway';
+  font-size: 15px;
+  margin-top: 50px;
+  text-align: center;
+}
+/*Desktop Why US section*/
+h1.desktop-info{
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+
+}
+span.desktop-info {
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 16px;
+  color: #333333;
+
+}
+p.desktop-info {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 14px;
+  color: #333333;
+}
+
+/*Mobile Why US section*/
+h1.mobile-info{
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+
+}
+span.mobile-info {
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 16px;
+  color: #333333;
+
+}
+p.mobile-info {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 14px;
+  color: #333333;
+}
+
+/*Testinomials*/
+div.card {
+  box-shadow: #00000029 ;
+
+}
+h5.card-text {
+  font-family: 'Raleway';
+  font-size: 18px;
+}
+span.card-text {
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 600;
+  color: #757575;
+}
+p.card-text{
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+
+
+@media screen and (min-width: 992px){
+  div.mobile-intro{
+    display: none;
+    font-family: 'Poppins';
+  }
+
+  div.skillslider{
+    display: none;
+  }
+  div.residencyslider{
+    display: none;
+  }
+  div.mobile-video{
+    display: none;
+  }
+  nav.mobilenav{
+    display: none;
+  }
+  div.mobile-skills{
+    display:none;
+  }
+  div.mobile-residency{
+    display: none;
+  }
+  div.mobile-whywe{
+    display: none;
+  }
+  div.mobile-testinomials{
+    display: none;
+
+  }
+
+
+
+}
+@media screen and (max-width: 576px) { 
+  div.desktop-intro{
+    display: none;
+  }
+
+.desktop-intro span{
+  color: #ffcc00;
+}
+
+
+div.skills{
+  display: none;
+}
+div.residency{
+    display: none;
+}
+div.desktop-whywe{
+    display: none;
+}
+div.firstimage{
+    display: flex;
+}
+div.desktop-cards{
+  display: none;
+
+}
+div.desktop-video{
+  display: none;
+}
+nav.desktopnav{
+  display:none;
+  
+}
+
+
+
+}
+
+
+
