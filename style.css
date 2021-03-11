@@ -178,6 +178,12 @@ p.card-text{
 
 }
 
+div.desktopcard {
+  width: 30rem;
+  
+  
+}
+
 
 
 @media screen and (min-width: 992px){
